@@ -1,0 +1,42 @@
+﻿  Building 'SampleDSM' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\SampleDSM.inf [Version] section with DriverVer=04/21/2017,18.13.3.969
+D:\repos\msdsm\src\SampleDSM.inf(60-60): warning 2083: Section [defaultuninstall] not referenced or used.
+D:\repos\msdsm\src\SampleDSM.inf(63-63): warning 2083: Section [defaultuninstall.services] not referenced or used.
+D:\repos\msdsm\src\SampleDSM.inf(70-70): warning 2083: Section [sampledsm_delreg] not referenced or used.
+  Microsoft (R) MOF Compiler Version 6.1.7600.16385
+  Copyright (c) Microsoft Corp. 1997-2006. All rights reserved.
+  Parsing MOF file: dsmtrace.mof
+  MOF file has been successfully parsed
+  Storing Binary MOF data in x64\Debug\dsmtrace.bmf
+  Done!
+  Microsoft (R) MOF Compiler Version 6.1.7600.16385
+  Copyright (c) Microsoft Corp. 1997-2006. All rights reserved.
+  Parsing MOF file: msdsm.mof
+  MOF file has been successfully parsed
+  Storing Binary MOF data in x64\Debug\msdsm.bmf
+  Done!
+  Microsoft (R) MOF Compiler Version 6.1.7600.16385
+  Copyright (c) Microsoft Corp. 1997-2006. All rights reserved.
+  Parsing MOF file: msdsmdsm.mof
+  MOF file has been successfully parsed
+  Storing Binary MOF data in x64\Debug\msdsmdsm.bmf
+  Done!
+  Microsoft (R) WDM Extensions To WMI MOF Checking Utility  Version 1.50.0000
+  Copyright (c) Microsoft Corp. 1997-2000. All rights reserved.
+  
+  Binary mof file .\x64\Debug\\msdsm.bmf expanded to 4324 bytes
+  Microsoft (R) WDM Extensions To WMI MOF Checking Utility  Version 1.50.0000
+  Copyright (c) Microsoft Corp. 1997-2000. All rights reserved.
+  
+  Binary mof file .\x64\Debug\\msdsmdsm.bmf expanded to 7088 bytes
+  precompsrc.c
+  intrface.c
+  dsmmain.c
+  utils.c
+  wmi.c
+  Generating Code...
+  SampleDSM.vcxproj -> D:\repos\msdsm\src\x64\Debug\SampleDSM.sys
+  SampleDSM.vcxproj -> x64\Debug\SampleDSM.pdb (Full PDB)
+  Done Adding Additional Store
+  Successfully signed: D:\repos\msdsm\src\x64\Debug\SampleDSM.sys
+  
